@@ -112,7 +112,7 @@ async def help(ctx):
                     inline=False)
     embed.add_field(name="Bot options", value=f"[ Invite bot! ](https://discord.com/api/oauth2/authorize?client_id=881259301052768266&permissions=3072&scope=bot)",
                     inline=False)
-    embed.set_footer(text="© Copyright 2021. Credits go to h4sh3d")
+    embed.set_footer(text="© Copyright 2021. Credits go to Nyrh0x")
     await ctx.send(embed=embed)
 
 update_sources()
